@@ -24,5 +24,26 @@ namespace DEMO
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+                LabelA.Content = ("Ja");
+                LabelB.Content = ("Ja");
+                LabelC.Content = ("Ja");
+        }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            LabelA.Content = ("Nee");
+            LabelB.Content = ("Nee");
+            LabelC.Content = ("Nee");
+        }
+
+        private void Button3_Click(object sender, RoutedEventArgs e)
+        {
+            LabelA.Content = ("A");
+            LabelB.Content = ("B");
+            LabelC.Content = ("C");
+        }
     }
 }
